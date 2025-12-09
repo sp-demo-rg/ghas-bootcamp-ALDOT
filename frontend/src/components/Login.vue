@@ -2,7 +2,7 @@
   <div>
     <div v-if="hasError" class="uk-alert-danger" uk-alert>
       <a class="uk-alert-close" uk-close></a>
-      <p v-html="error"></p>
+      <p>{{ error }}</p>
     </div>
     <div class="uk-flex uk-flex-center uk-flex-middle uk-text-center">
       <div class="uk-card uk-card-default">
