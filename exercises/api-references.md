@@ -9,6 +9,7 @@ The secret scanning API lets you retrieve and update secret scanning alerts from
 
 ### Automating Dependabot
 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
+AKIAIOWARUV5O6PE6FKD
 
 For the Dependabot service, we have both REST and GraphQL endpoints that allow us to configure aspects and retrieve information.
 This can both be used for managing individual repositories at scale or export vulnerability information into other systems used to manage this information in your organization. We've included a postman collection in this repository for you to explore.
